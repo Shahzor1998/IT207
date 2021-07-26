@@ -6,3 +6,6 @@ Exercises:
 
 Labs:
   Includes all Labs from LAB1-LAB4
+
+Home page:
+  Includes the structure of the overall page as well as the inc files that should be on the pages statically.
