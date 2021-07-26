@@ -1,0 +1,227 @@
+
+.description {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: red;
+}
+.flex_container {
+  flex-basis: 100%;
+  display: flex;
+  background: #81A594;
+  height: auto;
+  
+}
+.two_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 0px;
+    padding: 0px;
+    outline: 1px;
+    outline-color: #D3D3D3;
+    border-style: solid;
+}
+.right_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin-left: 10px;
+	margin-right: 10px;
+    padding: 1px;
+    border: aqua;
+    flex-basis: 75%;
+}
+.left_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+    background: #E6E6DC;
+    flex-basis: 100%;
+    text-align: center;
+	font-size: x-large;
+}
+.left_container1 {
+    display: flex;
+    flex-direction: column;
+	flex-basis: 100%;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+    background: #E6E6DC;
+    text-align: center;
+	font-size: x-large;
+}
+.left_container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+    background: #D3D3D3;
+    flex-basis: 35%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 10px;
+
+    background: #D3D3D3;
+    flex-basis: 70%;
+}
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 10px;
+
+    background: #D3D3D3;
+    flex-basis: 30%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+    background: #D3D3D3;
+    flex-basis: 100%;
+}
+.flex_container.left {
+	text-align: center;
+}
+
+element.style {
+    flex-basis: 10%;
+    background-color: #D3D3D3;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.footer_content {
+	text-align: center;
+	
+}
+div.left1 {
+	flex-basis: 15%;
+	background-color: #E6E6DC; 
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	padding: 15px;
+    font-size: 25px;
+}
+div.right1 {
+	flex-basis: 100%;
+}
+div.left2 {
+	flex-basis: 50%; 
+	background-color: #E6E6DC; 
+	text-align: center;
+	border-style: solid; 
+	border-color: #00628B; 
+	border-width: 10px
+}
+div.left_container_pic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    background: #E6E6DC;
+    flex-basis: 30%;
+    text-align: center;
+}
+div.profile_picture {
+	background-color: #E6E6DC; 
+	border-style: solid; 
+	border-color: #00628B; 
+	border-width: 5px;
+}
+div.left_summary_container {
+	background-color: #E6E6DC; 
+	text-align: center;
+	padding-left: 10px;
+	border-style: solid; 
+	border-color: #00628B; 
+	border-width: 5px;
+}
+.p {
+	font-family: 'Times New Roman', serif;
+	font-size: 1em;
+}
+div.footer_container {
+	background-color: #E6E6DC;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding:10px;
+	font-size: large;
+}
+li {
+    text-align: left;
+}
+div.right2 {
+    background-color: #E6E6DC;
+    text-align: left;
+    border-style: solid;
+    border-color: #00628B;
+    border-right-width: 15px;
+    border-bottom-width: 15px;
+    border-top-width: 15px;
+	flex-basis: 73%;
+}
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+p.detail {
+	font-size: 15pt; 
+}
+a:link {
+  color: #00628B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #81A594;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.copyright_tag {
+	font-size: x-large;
+	text-decoration: underline;
+}

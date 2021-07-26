@@ -1,0 +1,88 @@
+div.calendarform {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+div.main_container {
+    background-color: #E6E6DC;
+    padding: 10px;
+}
+form.email_name{
+	text-align:center;
+}
+form.setupform{
+	text-align:center;
+}
+.table{
+	display: table;         
+	border-collapse:collapse;
+	font-family: Verdana;
+	cellpadding: 100px;
+	cellspacing: 0;
+	border:3px solid #00628B;
+
+
+}
+.table_row{
+	display: table-row;
+}
+.table_cell{
+	float: left;
+    display: table-column;
+    width: 130px;
+    height: 150px;
+    background-color: #ccc;
+    border: 3px solid #00628B;
+    overflow: auto;
+	
+}
+.table_cell_week{
+	float: left;
+    display: table-column;
+    width: 130px;
+    height: 60px;
+    background-color: #ccc;
+    border: 3px solid #00628B;
+    font-size: 20px;
+	
+}
+.table_cell_input{
+	float: left;
+	display: table-column;         
+	width: 130px; 
+	height:300px;
+	background-color: #ccc;
+	border:3px solid #00628B;	
+}
+
+.table_header{
+	background-color:#00628B;
+	border:3px solid #00628B;
+	color:#E6E6DC;
+	height:60px;
+	text-align:center;
+	font-size: xxx-large;
+}
+table_days_of_week{
+	border:3px solid #00628B;
+	text-align: center;
+}
+select {
+    height: -webkit-fill-available;
+}
+input[type=submit] {
+    width: 5em;  
+	height: 2em;
+	font-weight: bold;
+	background-color: #00628B;
+	color: white;
+}
+input[type=reset] {
+    width: 5em;  
+	height: 2em;
+	font-weight: bold;
+	background-color: #00628B;
+	color: white;
+}

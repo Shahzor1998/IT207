@@ -1,0 +1,30 @@
+div.main_container {
+    background-color: #E6E6DC;
+    padding: 10px;
+	text-align: center;
+
+}
+.update {
+    font-size: 41px;
+    text-align: center;
+}
+.contactform {
+    text-align: center;
+}
+.addform {
+    text-align: center;
+	font-size: 41px;
+}
+.updateform {
+    text-align: center;
+}
+select {
+    height: -webkit-fill-available;
+}
+input[type=submit] {
+    width: 5em;  
+	height: 2em;
+	font-weight: bold;
+	background-color: #00628B;
+	color: white;
+}

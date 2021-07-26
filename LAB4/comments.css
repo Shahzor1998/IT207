@@ -1,0 +1,32 @@
+div.main_container {
+    background-color: #E6E6DC;
+    padding: 10px;
+	text-align: left;
+
+}
+.commentform {
+    text-align: left;
+}
+input[type=submit] {
+    width: auto;  
+	height: 2em;
+	font-weight: bold;
+	background-color: #00628B;
+	color: white;
+}
+input[type=reset] {
+    width: auto;
+    height: 2em;
+    font-weight: bold;
+    background-color: #00628B;
+    color: white;
+}
+h2 {
+	text-align: left;
+    text-decoration: none;
+}
+a:link {
+    color: #00628B;
+    background-color: transparent;
+    text-decoration: underline;
+}

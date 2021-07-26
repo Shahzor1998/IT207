@@ -1,0 +1,11 @@
+.gradeform {
+	flex-basis: 100%;
+	display: -webkit-box;
+	padding: 30px;
+	background: #E6E6DC;
+	height: auto;
+    font-size: larger;
+}
+p.input_grade_values {
+	text-align: center;
+}
